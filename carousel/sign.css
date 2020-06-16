@@ -1,0 +1,53 @@
+.sign_svg {
+    display: block;
+    font: 3.5em 'Montserrat';
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: -webkit-radial-gradient(center center, ellipse farthest-corner, transparent 0%, transparent 10%, rgba(0,0,0,0.8) 100%), -webkit-linear-gradient(top, #555 0%, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -webkit-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -webkit-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%), -webkit-linear-gradient(left, #555 0px, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -webkit-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -webkit-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%);
+    background-image: -moz-radial-gradient(center center, ellipse farthest-corner, transparent 0%, transparent 10%, rgba(0,0,0,0.8) 100%), -moz-linear-gradient(top, #555 0%, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -moz-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -moz-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%), -moz-linear-gradient(left, #555 0px, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -moz-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -moz-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner, transparent 0%, transparent 10%, rgba(0,0,0,0.8) 100%), -ms-linear-gradient(top, #555 0%, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -ms-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -ms-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%), -ms-linear-gradient(left, #555 0px, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -ms-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -ms-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%);
+    background-image: -o-radial-gradient(center center, ellipse farthest-corner, transparent 0%, transparent 10%, rgba(0,0,0,0.8) 100%), -o-linear-gradient(top, #555 0%, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -o-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -o-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%), -o-linear-gradient(left, #555 0px, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), -o-linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), -o-linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%);
+    background-image: radial-gradient(center center, ellipse farthest-corner, transparent 0%, transparent 10%, rgba(0,0,0,0.8) 100%), linear-gradient(top, #555 0%, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%), linear-gradient(left, #555 0px, #555 1px, transparent 1px, transparent 14px, #555 14px, #555 16px, transparent 16px, transparent 29px, #555 29px, #555 30px), linear-gradient(45deg, #ddd 0%, #ddd 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), linear-gradient(45deg, #eee 0%, #eee 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd 100%);
+    background-position: 0 0, 0 0, 13px 0, 28px 15px, 0 0, 0 0, 15px 15px;
+    background-size: 600px 300px, 30px 30px, 30px 30px, 30px 30px, 30px 30px, 30px 30px, 30px 30px;
+    background-repeat: repeat;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 2px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #1B7A3A;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #84DD63;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #CBFF4D;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: white;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #6BAA75;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

@@ -32,6 +32,18 @@ hr.bold {
     padding-top: 40px;
 }
 
+.post {
+  padding-top: -10;
+  color: #020202;
+  font-family: 'Oswald', sans-serif;
+}
+
+.post h2{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 .icon{
     padding-left: 10px;
     color: #FFFFFF;
@@ -75,6 +87,25 @@ hr.bold {
     font-family: 'Oswald', sans-serif;
 }
 
+.post_card{
+  color: #fdcd3b;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  background-color: #000000;
+}
+
+.post_card h5{
+  color: 94ACA1;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+.post_card p{
+  color: #fdcd3b;
+  font-family: 'Oswald', sans-serif;
+}
+
 .container_body{
     width: 100%;
 }
@@ -95,6 +126,19 @@ hr.bold {
     display: inline-block;
     font-size: 14px;
   }
+
+.button_post {
+  background-color: rgb(2, 2, 2);
+  border:  #fdcd3b;
+  border-style: solid;
+  border-width: 2px;
+  color: #fdcd3b;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
 
 .button_news {
   background-color: #94ACA1;
@@ -154,6 +198,12 @@ hr.bold {
 .news_hr{
   color: #CBFF4D;
   border-color: #CBFF4D;
+  border-width: 2px;
+}
+
+.post_hr{
+  color: #fdcd3b;
+  border-color: #fdcd3b;
   border-width: 2px;
 }
 
@@ -335,6 +385,7 @@ hr.bold {
   font-size: 200px;
 }
 
+
 .harhar_h1 {
   color: #FFFFFF;
   font-size: 200px;
@@ -394,4 +445,37 @@ hr.bold {
 
 footer a {
   color: #69747C;
+}
+
+.players_profile {
+  color: #1B7A3A;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+.players_profile h5 {
+  color: #69747C;
+  font-size: 20px;
+  text-align: left;
+}
+
+.players_profile p {
+  color: #1B7A3A;
+  font-size: 15px;
+}
+
+.players_social {
+  color: #1B7A3A;
+  font-size: 50px;
+  text-align: center;
+  align-content: center;
+  padding-top: 100px;
+}
+
+.jumbotron_background{
+  background: url("img/87178787_1313247718870680_3431421326085062656_o.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }

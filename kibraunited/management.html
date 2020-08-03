@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <link rel="icon" href="img/logo.jpg">
+    <title>Kibra United</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2031373993.js" crossorigin="anonymous"></script>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sign.css" rel="stylesheet">
+    <link href="css/harhar.css" rel="stylesheet">
+    <link href="css/har.css" rel="stylesheet">
+    <link href="css/h.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top navbar-custom">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.jpg"  width="90px" height="90px"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto navbar-font">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                The Club
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.html">About the Club</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="players.html">The team</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="management.html">Management</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="legends.html">Legends</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Media
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="all_news.html">News</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="all_blogs.html">Blog</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Matches
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Upcoming Matches</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Results</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Standings</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Get Involved
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Subscribe</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Donate</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Galery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="photos.html">Photos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="videos.html">Videos</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <div>
+                <span class="icon"><i class="fab fa-facebook-f fa-2x "></i> </span>
+                <span class="icon"><i class="fab fa-twitter fa-2x "></i></span>
+                <span class="icon"><i class="fab fa-instagram fa-2x "></i></span>
+              </div>
+            </form>
+        </div>
+      </nav>
+    </header>
+
+<main role="main">
+  <div class="container">
+    <div></br></br></br></div>
+
+    <div></br></div>
+    
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-interval="false" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      </br>
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item  carousel-players active">
+          <div class="row">
+            <div class="col col-md"> 
+              <div class="pre-scrollable"  style="max-height: 75vh"> 
+              <div class="wrapper"><h5>Lionel Andrés Messi</h5></div>
+              <table class="table players_profile">
+                <tbody>
+                  <tr>
+                    <td><h5>Full Name</h5></td>
+                    <td>Lionel Andrés Messi</td>
+                  </tr>
+                  <tr>
+                    <td><h5>born</h5></td>
+                    <td>24 June 1987, in Rosario, Argentina</td>
+                  </tr>
+                  <tr>
+                    <td><h5>nationality</h5></td>
+                    <td>Argentinian</td>
+                  </tr>
+                  <tr>
+                    <td><h5>physical</h5></td>
+                    <td>Height: 1.69 m (5 ft 6+1⁄2 in)
+                        </br>Weight: 67kg
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><h5>position</h5></td>
+                    <td>striker</td>
+                  </tr>
+                  <tr>
+                    <td><h5>foot</h5></td>
+                    <td>left</td>
+                  </tr>
+                  <tr>
+                    <td><h5>jersey number:</h5></td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td><h5>achievements</h5></td>
+                    <td>
+                    <ul>
+                      <li>Lionel Messi won the FIFA Player of the Year in 2009, 2010, 2011, 2012, 2015, 2019.
+                      </li><li>won L'Équipe Champion of Champions award in 2011.
+                      </li><li>Golden Ball winner 2014 World Cup</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><h5>what you may not know:</h5></td>
+                    <td>
+                    <ul>
+                    <li>At the age of five, Messi started playing football for Grandoli, a local club coached by his father Jorge.
+                    </li><li>he was diagnosed with a growth deficiency at 11, requiring growth hormone injections.
+                    </li><li>He is featured on the front cover of the video game Pro Evolution Soccer 2009.
+                    </li><li>His debut with the Argentinian national team (against Hungary) was a disaster: he entered the game in the 18th minute of the second half, and 47 seconds later was sent off!
+                    </li><li>He made his La Liga debut for Barcelona against Espanyol when he was 17 years old</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><h5>jersey number:</h5></td>
+                    <td>10</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>               
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col col-md">
+              <div class="img_tiles_container">
+                <div class="img_c">
+                  <img src="img/98026654_1384249928437125_6070898816486211584_o.jpg" alt="Avatar" class="image_players center">
+                </div>
+              </div>
+            </div><!-- /.col-lg-4 -->
+
+          </div>
+
+          <div class="container">
+
+            <div class="players_social">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook fa-5x"></i>
+              </a>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-instagram-square fa-5x"></i>
+              </a>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter-square fa-5x"></i>
+              </a>
+            </div>
+
+                
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item carousel-players">
+
+          <div class="row">
+            <div class="col col-md"> 
+              <div class="pre-scrollable"  style="max-height: 75vh"> 
+              <div class="wrapper"><h5>Lionel Andrés Messi</h5></div>
+              <table class="table players_profile">
+                <tbody>
+                  <tr>
+                    <td><h5>Full Name</h5></td>
+                    <td>Lionel Andrés Messi</td>
+                  </tr>
+                  <tr>
+                    <td><h5>born</h5></td>
+                    <td>24 June 1987, in Rosario, Argentina</td>
+                  </tr>
+                  <tr>
+                    <td><h5>nationality</h5></td>
+                    <td>Argentinian</td>
+                  </tr>
+                  <tr>
+                    <td><h5>physical</h5></td>
+                    <td>Height: 1.69 m (5 ft 6+1⁄2 in)
+                        </br>Weight: 67kg
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><h5>position</h5></td>
+                    <td>striker</td>
+                  </tr>
+                  <tr>
+                    <td><h5>foot</h5></td>
+                    <td>left</td>
+                  </tr>
+                  <tr>
+                    <td><h5>jersey number:</h5></td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td><h5>achievements</h5></td>
+                    <td>
+                    <ul>
+                      <li>Lionel Messi won the FIFA Player of the Year in 2009, 2010, 2011, 2012, 2015, 2019.
+                      </li><li>won L'Équipe Champion of Champions award in 2011.
+                      </li><li>Golden Ball winner 2014 World Cup</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><h5>what you may not know:</h5></td>
+                    <td>
+                    <ul>
+                    <li>At the age of five, Messi started playing football for Grandoli, a local club coached by his father Jorge.
+                    </li><li>he was diagnosed with a growth deficiency at 11, requiring growth hormone injections.
+                    </li><li>He is featured on the front cover of the video game Pro Evolution Soccer 2009.
+                    </li><li>His debut with the Argentinian national team (against Hungary) was a disaster: he entered the game in the 18th minute of the second half, and 47 seconds later was sent off!
+                    </li><li>He made his La Liga debut for Barcelona against Espanyol when he was 17 years old</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><h5>jersey number:</h5></td>
+                    <td>10</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>               
+            </div><!-- /.col-lg-4 -->
+
+
+            <div class="col col-md">
+              <div class="img_tiles_container">
+                <div class="img_c">
+                  <img src="img/98026654_1384249928437125_6070898816486211584_o.jpg" alt="Avatar" class="image_players center">
+                </div>
+              </div>
+            </div><!-- /.col-lg-4 -->
+
+          </div>
+
+          <div class="container">
+
+            <div class="players_social">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook fa-5x"></i>
+              </a>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-instagram-square fa-5x"></i>
+              </a>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter-square fa-5x"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item carousel-players">
+
+          <div class="row">
+            <div class="col col-md"> 
+              <div class="pre-scrollable"  style="max-height: 75vh"> 
+              <div class="wrapper"><h5>Lionel Andrés Messi</h5></div>
+              <table class="table players_profile">
+                <tbody>
+                  <tr>
+                    <td><h5>Full Name</h5></td>
+                    <td>Lionel Andrés Messi</td>
+                  </tr>
+                  <tr>
+                    <td><h5>born</h5></td>
+                    <td>24 June 1987, in Rosario, Argentina</td>
+                  </tr>
+                  <tr>
+                    <td><h5>nationality</h5></td>
+                    <td>Argentinian</td>
+                  </tr>
+                  <tr>
+                    <td><h5>physical</h5></td>
+                    <td>Height: 1.69 m (5 ft 6+1⁄2 in)
+                        </br>Weight: 67kg
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><h5>position</h5></td>
+                    <td>striker</td>
+                  </tr>
+                  <tr>
+                    <td><h5>foot</h5></td>
+                    <td>left</td>
+                  </tr>
+                  <tr>
+                    <td><h5>jersey number:</h5></td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td><h5>achievements</h5></td>
+                    <td>
+                    <ul>
+                      <li>Lionel Messi won the FIFA Player of the Year in 2009, 2010, 2011, 2012, 2015, 2019.
+                      </li><li>won L'Équipe Champion of Champions award in 2011.
+                      </li><li>Golden Ball winner 2014 World Cup</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><h5>what you may not know:</h5></td>
+                    <td>
+                    <ul>
+                    <li>At the age of five, Messi started playing football for Grandoli, a local club coached by his father Jorge.
+                    </li><li>he was diagnosed with a growth deficiency at 11, requiring growth hormone injections.
+                    </li><li>He is featured on the front cover of the video game Pro Evolution Soccer 2009.
+                    </li><li>His debut with the Argentinian national team (against Hungary) was a disaster: he entered the game in the 18th minute of the second half, and 47 seconds later was sent off!
+                    </li><li>He made his La Liga debut for Barcelona against Espanyol when he was 17 years old</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><h5>jersey number:</h5></td>
+                    <td>10</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>               
+            </div><!-- /.col-lg-4 -->
+
+
+            <div class="col col-md">
+              <div class="img_tiles_container">
+                <div class="img_c">
+                  <img src="img/98026654_1384249928437125_6070898816486211584_o.jpg" alt="Avatar" class="image_players center">
+                </div>
+              </div>
+            </div><!-- /.col-lg-4 -->
+
+          </div>
+          
+          <div class="container">
+
+            <div class="players_social">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook fa-5x"></i>
+              </a>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-instagram-square fa-5x"></i>
+              </a>
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter-square fa-5x"></i>
+              </a>
+            </div>
+
+                
+          </div>
+        </div>
+        <!--/.Third slide-->
+      </div>
+      <!--/.Slides-->
+      <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <!--/.Carousel Wrapper-->
+  </div>  
+  
+</main>
+  <!-- FOOTER -->
+  <!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Kibra United</h6>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Fan Zone</h6>
+        <p>
+          <a href="#!">Photo</a>
+        </p>
+        <p>
+          <a href="#!">Videos</a>
+        </p>
+        <p>
+          <a href="#!">Social Media</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Shop</h6>
+        <p>
+          <a href="#!">2019/2020 Kit</a>
+        </p>
+        <p>
+          <a href="#!">Training</a>
+        </p>
+        <p>
+          <a href="#!">Lifestyle</a>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> Kibra, Nairobi, Kenya</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@kibraunited.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://www.enmorph.com/">
+            <strong> enmorph.com</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script></body>
+</html>

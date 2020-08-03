@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <link rel="icon" href="img/logo.jpg">
+    <title>Kibra United</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2031373993.js" crossorigin="anonymous"></script>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sign.css" rel="stylesheet">
+    <link href="css/harhar.css" rel="stylesheet">
+    <link href="css/har.css" rel="stylesheet">
+    <link href="css/images.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/bootstrap-image-gallery.css">
+    <link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/demo.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-custom">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.jpg"  width="90px" height="90px"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto navbar-font">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    The Club
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="about.html">About the Club</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="players.html">The team</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="management.html">Management</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="legends.html">Legends</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Media
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="all_news.html">News</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="all_blogs.html">Blog</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Matches
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Upcoming Matches</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Results</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Standings</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Get Involved
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Subscribe</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Donate</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Galery
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="photos.html">Photos</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="videos.html">Videos</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+                </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                <div>
+                    <span class="icon"><i class="fab fa-facebook-f fa-2x "></i> </span>
+                    <span class="icon"><i class="fab fa-twitter fa-2x "></i></span>
+                    <span class="icon"><i class="fab fa-instagram fa-2x "></i></span>
+                </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div></br></br></div>
+    <div class="container">
+        
+        <!-- The container for the list of example images -->
+        <div id="links">
+            <a data-gallery="" title="Delft Touch in the kitchen" href="http://farm4.static.flickr.com/3812/11188050815_5e8cccf0f6_b.jpg">
+                <img src="http://farm4.static.flickr.com/3812/11188050815_5e8cccf0f6_s.jpg">
+            </a>
+            <a data-gallery="" title="Higherbeams." href="http://farm4.static.flickr.com/3821/11190956343_09b8022ea2_b.jpg">
+                <img src="http://farm4.static.flickr.com/3821/11190956343_09b8022ea2_s.jpg">
+            </a>
+            <a data-gallery="" title="Contact" href="http://farm8.static.flickr.com/7325/11186917235_003d9df5d6_b.jpg">
+                <img src="http://farm8.static.flickr.com/7325/11186917235_003d9df5d6_s.jpg">
+            </a>
+            <a data-gallery="" title="The Track" href="http://farm6.static.flickr.com/5501/11186913445_c88dd25c59_b.jpg">
+                <img src="http://farm6.static.flickr.com/5501/11186913445_c88dd25c59_s.jpg">
+            </a>
+            <a data-gallery="" title="TheHallsOfAdoration" href="http://farm4.static.flickr.com/3715/11186895035_8596236621_b.jpg">
+                <img src="http://farm4.static.flickr.com/3715/11186895035_8596236621_s.jpg">
+            </a>
+            <a data-gallery="" title="Si me dijeran pide un deseo" href="http://farm8.static.flickr.com/7414/11190086653_e330723a8c_b.jpg">
+                <img src="http://farm8.static.flickr.com/7414/11190086653_e330723a8c_s.jpg">
+            </a>
+            <a data-gallery="" title="untitled" href="http://farm3.static.flickr.com/2891/11188743634_f339e72b79_b.jpg">
+                <img src="http://farm3.static.flickr.com/2891/11188743634_f339e72b79_s.jpg">
+            </a>
+            <a data-gallery="" title="Loch Ba" href="http://farm8.static.flickr.com/7390/11187408694_9dd7188ca8_b.jpg">
+                <img src="http://farm8.static.flickr.com/7390/11187408694_9dd7188ca8_s.jpg">
+            </a>
+            <a data-gallery="" title="Remarkable Rocks 2" href="http://farm3.static.flickr.com/2831/11187401055_1e498bde13_b.jpg">
+                <img src="http://farm3.static.flickr.com/2831/11187401055_1e498bde13_s.jpg">
+            </a>
+            <a data-gallery="" title="Blue Patricia Lake" href="http://farm4.static.flickr.com/3720/11190734053_7cf9749bdb_b.jpg">
+                <img src="http://farm4.static.flickr.com/3720/11190734053_7cf9749bdb_s.jpg">
+            </a>
+            <a data-gallery="" title="Goblin Brute" href="http://farm4.static.flickr.com/3740/11186937956_d8d8422169_b.jpg">
+                <img src="http://farm4.static.flickr.com/3740/11186937956_d8d8422169_s.jpg">
+            </a>
+            <a data-gallery="" title="." href="http://farm8.static.flickr.com/7421/11191341825_b2bf635f25_b.jpg">
+                <img src="http://farm8.static.flickr.com/7421/11191341825_b2bf635f25_s.jpg">
+            </a>
+            <a data-gallery="" title="Lofoten Islands" href="http://farm4.static.flickr.com/3788/11193226453_fd9b06008c_b.jpg">
+                <img src="http://farm4.static.flickr.com/3788/11193226453_fd9b06008c_s.jpg">
+            </a>
+            <a data-gallery="" title="もみじ" href="http://farm4.static.flickr.com/3737/11189043544_e992a227d3_b.jpg">
+                <img src="http://farm4.static.flickr.com/3737/11189043544_e992a227d3_s.jpg">
+            </a>
+            <a data-gallery="" title="Nocturna en Albarracín./ Nocturne near Albarracín (Teruel, Spain)." href="http://farm8.static.flickr.com/7455/11187819606_c008b36106_b.jpg">
+                <img src="http://farm8.static.flickr.com/7455/11187819606_c008b36106_s.jpg">
+            </a>
+            <a data-gallery="" title="DIAMOND IN THE ROUGH" href="http://farm8.static.flickr.com/7319/11188792234_dfea30f688_b.jpg">
+                <img src="http://farm8.static.flickr.com/7319/11188792234_dfea30f688_s.jpg">
+            </a>
+            <a data-gallery="" title="Imperfection" href="http://farm3.static.flickr.com/2817/11188666563_091e4bb4b4_b.jpg">
+                <img src="http://farm3.static.flickr.com/2817/11188666563_091e4bb4b4_s.jpg">
+            </a>
+            <a data-gallery="" title="Late Again" href="http://farm6.static.flickr.com/5531/11186088035_98d5c7be84_b.jpg">
+                <img src="http://farm6.static.flickr.com/5531/11186088035_98d5c7be84_s.jpg">
+            </a>
+            <a data-gallery="" title="Canyons" href="http://farm6.static.flickr.com/5502/11189048145_f234c1c4a1_b.jpg">
+                <img src="http://farm6.static.flickr.com/5502/11189048145_f234c1c4a1_s.jpg">
+            </a>
+            <a data-gallery="" title="Brouillard sur Lanaud" href="http://farm6.static.flickr.com/5477/11193030495_dc7d99caff_b.jpg">
+                <img src="http://farm6.static.flickr.com/5477/11193030495_dc7d99caff_s.jpg">
+            </a>
+            <a data-gallery="" title="Incontri di lavoro" href="http://farm8.static.flickr.com/7333/11189762165_7092588e1f_b.jpg">
+                <img src="http://farm8.static.flickr.com/7333/11189762165_7092588e1f_s.jpg">
+            </a>
+            <a data-gallery="" title="Tijdens de wandeling terug van De panne naar Oostduinkerke" href="http://farm6.static.flickr.com/5542/11186573045_89102139d2_b.jpg">
+                <img src="http://farm6.static.flickr.com/5542/11186573045_89102139d2_s.jpg">
+            </a>
+            <a data-gallery="" title="absorbed" href="http://farm4.static.flickr.com/3751/11194208465_ccfb0df6d3_b.jpg">
+                <img src="http://farm4.static.flickr.com/3751/11194208465_ccfb0df6d3_s.jpg">
+            </a>
+            <a data-gallery="" title="Metal,  Steam and Dedication.  North Yorkshire Moors Railway." href="http://farm6.static.flickr.com/5531/11189794436_99c1e0dcfd_b.jpg">
+                <img src="http://farm6.static.flickr.com/5531/11189794436_99c1e0dcfd_s.jpg">
+            </a>
+            <a data-gallery="" title="Tutorial tuesday" href="http://farm4.static.flickr.com/3767/11194056215_786a05dcb9_b.jpg">
+                <img src="http://farm4.static.flickr.com/3767/11194056215_786a05dcb9_s.jpg">
+            </a>
+            <a data-gallery="" title="Histoire comme ça" href="http://farm3.static.flickr.com/2821/11187333644_25ae318b9a_b.jpg">
+                <img src="http://farm3.static.flickr.com/2821/11187333644_25ae318b9a_s.jpg">
+            </a>
+            <a data-gallery="" title="" href="http://farm4.static.flickr.com/3797/11186343795_9e20e0a0d0_b.jpg">
+                <img src="http://farm4.static.flickr.com/3797/11186343795_9e20e0a0d0_s.jpg">
+            </a>
+            <a data-gallery="" title="Alice" href="http://farm6.static.flickr.com/5501/11190429845_6b3bf13263_b.jpg">
+                <img src="http://farm6.static.flickr.com/5501/11190429845_6b3bf13263_s.jpg">
+            </a>
+            <a data-gallery="" title="Irreversible" href="http://farm8.static.flickr.com/7437/11188139865_91b1fbb522_b.jpg">
+                <img src="http://farm8.static.flickr.com/7437/11188139865_91b1fbb522_s.jpg">
+            </a>
+            <a data-gallery="" title="Kurhaus Binz" href="http://farm8.static.flickr.com/7311/11194373534_956b5e79d9_b.jpg">
+                <img src="http://farm8.static.flickr.com/7311/11194373534_956b5e79d9_s.jpg">
+            </a>
+            <a data-gallery="" title="the lure of the easter lily" href="http://farm8.static.flickr.com/7365/11194393934_297a0bb9e2_b.jpg">
+                <img src="http://farm8.static.flickr.com/7365/11194393934_297a0bb9e2_s.jpg">
+            </a>
+            <a data-gallery="" title="What's Inside My Bag" href="http://farm4.static.flickr.com/3780/11189972615_a62b8c7213_b.jpg">
+                <img src="http://farm4.static.flickr.com/3780/11189972615_a62b8c7213_s.jpg">
+            </a>
+            <a data-gallery="" title="photo boillon christophe / photo macro au carré syrphe & fleur de lys / le souvenir du regard d'un insecte n°2" href="http://farm8.static.flickr.com/7385/11191819703_75990b9d9b_b.jpg">
+                <img src="http://farm8.static.flickr.com/7385/11191819703_75990b9d9b_s.jpg">
+            </a>
+            <a data-gallery="" title="Please Don't Jump!" href="http://farm3.static.flickr.com/2859/11195652165_7a406e0d7c_b.jpg">
+                <img src="http://farm3.static.flickr.com/2859/11195652165_7a406e0d7c_s.jpg">
+            </a>
+            <a data-gallery="" title="Pink Orchid.  Orquídea rosa." href="http://farm4.static.flickr.com/3711/11186551613_f3e986c66b_b.jpg">
+                <img src="http://farm4.static.flickr.com/3711/11186551613_f3e986c66b_s.jpg">
+            </a>
+            <a data-gallery="" title="autumn sun rays" href="http://farm6.static.flickr.com/5471/11194154564_088959d971_b.jpg">
+                <img src="http://farm6.static.flickr.com/5471/11194154564_088959d971_s.jpg">
+            </a>
+            <a data-gallery="" title="A Fallen Sky" href="http://farm6.static.flickr.com/5494/11193293955_df6ae68522_b.jpg">
+                <img src="http://farm6.static.flickr.com/5494/11193293955_df6ae68522_s.jpg">
+            </a>
+            <a data-gallery="" title="the drilling has stopped" href="http://farm4.static.flickr.com/3739/11193143803_0d5dd1d935_b.jpg">
+                <img src="http://farm4.static.flickr.com/3739/11193143803_0d5dd1d935_s.jpg">
+            </a>
+            <a data-gallery="" title="Sunset at Cayucos, CA" href="http://farm4.static.flickr.com/3785/11193020376_054ba0c2cb_b.jpg">
+                <img src="http://farm4.static.flickr.com/3785/11193020376_054ba0c2cb_s.jpg">
+            </a>
+            <a data-gallery="" title="Eiffel's Shadow Part 2" href="http://farm8.static.flickr.com/7432/11189047666_2ff11060db_b.jpg">
+                <img src="http://farm8.static.flickr.com/7432/11189047666_2ff11060db_s.jpg">
+            </a>
+            <a data-gallery="" title="Old Time Space Pilots!" href="http://farm6.static.flickr.com/5508/11197130006_ac579704c7_b.jpg">
+                <img src="http://farm6.static.flickr.com/5508/11197130006_ac579704c7_s.jpg">
+            </a>
+            <a data-gallery="" title="Sky reflected" href="http://farm4.static.flickr.com/3811/11191218745_ef8cf811c9_b.jpg">
+                <img src="http://farm4.static.flickr.com/3811/11191218745_ef8cf811c9_s.jpg">
+            </a>
+            <a data-gallery="" title="Rain at sea" href="http://farm6.static.flickr.com/5528/11191191844_7de9305ff0_b.jpg">
+                <img src="http://farm6.static.flickr.com/5528/11191191844_7de9305ff0_s.jpg">
+            </a>
+            <a data-gallery="" title="Frostig - Frosty" href="http://farm4.static.flickr.com/3827/11194862425_a1a26fce68_b.jpg">
+                <img src="http://farm4.static.flickr.com/3827/11194862425_a1a26fce68_s.jpg">
+            </a>
+            <a data-gallery="" title="Orange Ladybird" href="http://farm6.static.flickr.com/5527/11186670076_11ee081969_b.jpg">
+                <img src="http://farm6.static.flickr.com/5527/11186670076_11ee081969_s.jpg">
+            </a>
+            <a data-gallery="" title="Pink orchid" href="http://farm6.static.flickr.com/5514/11193598423_981cb3b900_b.jpg">
+                <img src="http://farm6.static.flickr.com/5514/11193598423_981cb3b900_s.jpg">
+            </a>
+            <a data-gallery="" title="225.2013" href="http://farm8.static.flickr.com/7449/11193159913_76ddcd3f02_b.jpg">
+                <img src="http://farm8.static.flickr.com/7449/11193159913_76ddcd3f02_s.jpg">
+            </a>
+            <a data-gallery="" title="DSC_7489" href="http://farm4.static.flickr.com/3834/11187370596_195c175098_b.jpg">
+                <img src="http://farm4.static.flickr.com/3834/11187370596_195c175098_s.jpg">
+            </a>
+            <a data-gallery="" title="G-TCDC 2 A321-231S Thomas Cook Airlines UK(on del) MAN 03DEC13" href="http://farm4.static.flickr.com/3665/11192324763_729bd2eb5a_b.jpg">
+                <img src="http://farm4.static.flickr.com/3665/11192324763_729bd2eb5a_s.jpg">
+            </a>
+            <a data-gallery="" title="cold day..but nice" href="http://farm6.static.flickr.com/5546/11191357813_754fc41bde_b.jpg">
+                <img src="http://farm6.static.flickr.com/5546/11191357813_754fc41bde_s.jpg">
+            </a>
+            <a data-gallery="" title="Grinnell in B & W" href="http://farm8.static.flickr.com/7409/11190351243_5c9d34b844_b.jpg">
+                <img src="http://farm8.static.flickr.com/7409/11190351243_5c9d34b844_s.jpg">
+            </a>
+            <a data-gallery="" title="Golmaramara, Manisa" href="http://farm8.static.flickr.com/7378/11190583213_87c55a04b1_b.jpg">
+                <img src="http://farm8.static.flickr.com/7378/11190583213_87c55a04b1_s.jpg">
+            </a>
+            <a data-gallery="" title="IMG_4539 Alstroemeria hibrida( Peruvian lily or lily of the Incas)" href="http://farm3.static.flickr.com/2881/11190387313_07d3e4019e_b.jpg">
+                <img src="http://farm3.static.flickr.com/2881/11190387313_07d3e4019e_s.jpg">
+            </a>
+            <a data-gallery="" title="On the Move" href="http://farm4.static.flickr.com/3710/11190198736_329108ab33_b.jpg">
+                <img src="http://farm4.static.flickr.com/3710/11190198736_329108ab33_s.jpg">
+            </a>
+            <a data-gallery="" title="Twistleton Erratic Mystery Solved" href="http://farm4.static.flickr.com/3736/11188821145_4d7c5cba2d_b.jpg">
+                <img src="http://farm4.static.flickr.com/3736/11188821145_4d7c5cba2d_s.jpg">
+            </a>
+            <a data-gallery="" title="Welcome To Dream Theater" href="http://farm3.static.flickr.com/2888/11194228946_a22ca1273f_b.jpg">
+                <img src="http://farm3.static.flickr.com/2888/11194228946_a22ca1273f_s.jpg">
+            </a>
+            <a data-gallery="" title="Oh Christmas Tree, Oh Christmas Tree (A7 + FE 28-70mm)" href="http://farm3.static.flickr.com/2843/11188372516_d2b638c316_b.jpg">
+                <img src="http://farm3.static.flickr.com/2843/11188372516_d2b638c316_s.jpg">
+            </a>
+            <a data-gallery="" title="Réservoir" href="http://farm4.static.flickr.com/3772/11186008524_70203c9862_b.jpg">
+                <img src="http://farm4.static.flickr.com/3772/11186008524_70203c9862_s.jpg">
+            </a>
+            <a data-gallery="" title="Anna's Hummingbird" href="http://farm3.static.flickr.com/2879/11193622663_2596f23ccb_b.jpg">
+                <img src="http://farm3.static.flickr.com/2879/11193622663_2596f23ccb_s.jpg">
+            </a>
+            <a data-gallery="" title="India. Udaipur. Templo de Sas Bahu" href="http://farm4.static.flickr.com/3766/11191115443_ef304dab2d_b.jpg">
+                <img src="http://farm4.static.flickr.com/3766/11191115443_ef304dab2d_s.jpg">
+            </a>
+            <a data-gallery="" title="Afternoon Tea Treat" href="http://farm6.static.flickr.com/5546/11186477995_5e02323a9a_b.jpg">
+                <img src="http://farm6.static.flickr.com/5546/11186477995_5e02323a9a_s.jpg">
+            </a>
+            <a data-gallery="" title="Liège-Guillemins" href="http://farm4.static.flickr.com/3813/11191726844_ef38874aa2_b.jpg">
+                <img src="http://farm4.static.flickr.com/3813/11191726844_ef38874aa2_s.jpg">
+            </a>
+            <a data-gallery="" title="autunno in Langa" href="http://farm8.static.flickr.com/7295/11186551094_fd7f6bb741_b.jpg">
+                <img src="http://farm8.static.flickr.com/7295/11186551094_fd7f6bb741_s.jpg">
+            </a>
+            <a data-gallery="" title="Junco" href="http://farm4.static.flickr.com/3775/11188715846_ccaaa3c859_b.jpg">
+                <img src="http://farm4.static.flickr.com/3775/11188715846_ccaaa3c859_s.jpg">
+            </a>
+            <a data-gallery="" title="illuminati" href="http://farm8.static.flickr.com/7390/11190619986_b01b312535_b.jpg">
+                <img src="http://farm8.static.flickr.com/7390/11190619986_b01b312535_s.jpg">
+            </a>
+            <a data-gallery="" title="Chicago on the prairie" href="http://farm8.static.flickr.com/7444/11192183673_9b5dc14b82_b.jpg">
+                <img src="http://farm8.static.flickr.com/7444/11192183673_9b5dc14b82_s.jpg">
+            </a>
+            <a data-gallery="" title="In the wee small hours" href="http://farm4.static.flickr.com/3690/11188858774_880657dfe5_b.jpg">
+                <img src="http://farm4.static.flickr.com/3690/11188858774_880657dfe5_s.jpg">
+            </a>
+            <a data-gallery="" title="Sunset at Rocca Calascio" href="http://farm4.static.flickr.com/3823/11188037413_12432dbd1b_b.jpg">
+                <img src="http://farm4.static.flickr.com/3823/11188037413_12432dbd1b_s.jpg">
+            </a>
+            <a data-gallery="" title="Autumn Woodland Walk" href="http://farm8.static.flickr.com/7445/11193295285_0e9a33b308_b.jpg">
+                <img src="http://farm8.static.flickr.com/7445/11193295285_0e9a33b308_s.jpg">
+            </a>
+            <a data-gallery="" title="Night Messenger" href="http://farm3.static.flickr.com/2820/11187385286_22a1684442_b.jpg">
+                <img src="http://farm3.static.flickr.com/2820/11187385286_22a1684442_s.jpg">
+            </a>
+            <a data-gallery="" title="IMG_0986 (1)" href="http://farm6.static.flickr.com/5540/11194162765_82ff5370ba_b.jpg">
+                <img src="http://farm6.static.flickr.com/5540/11194162765_82ff5370ba_s.jpg">
+            </a>
+            <a data-gallery="" title="Opening in the reeds" href="http://farm8.static.flickr.com/7297/11194070595_8fbe773d36_b.jpg">
+                <img src="http://farm8.static.flickr.com/7297/11194070595_8fbe773d36_s.jpg">
+            </a>
+            <a data-gallery="" title="坐看 ~奧入瀨溪流,  雲井之流  of Oirase Keiryu~" href="http://farm4.static.flickr.com/3809/11192250074_96d068f6b6_b.jpg">
+                <img src="http://farm4.static.flickr.com/3809/11192250074_96d068f6b6_s.jpg">
+            </a>
+            <a data-gallery="" title="Blue and Gold" href="http://farm4.static.flickr.com/3724/11191614145_eeae8c7a2a_b.jpg">
+                <img src="http://farm4.static.flickr.com/3724/11191614145_eeae8c7a2a_s.jpg">
+            </a>
+            <a data-gallery="" title="NYC in Silhouette" href="http://farm6.static.flickr.com/5509/11188709506_8b49202344_b.jpg">
+                <img src="http://farm6.static.flickr.com/5509/11188709506_8b49202344_s.jpg">
+            </a>
+            <a data-gallery="" title="Gobi Desert" href="http://farm4.static.flickr.com/3756/11186900993_40b7e05620_b.jpg">
+                <img src="http://farm4.static.flickr.com/3756/11186900993_40b7e05620_s.jpg">
+            </a>
+            <a data-gallery="" title="Matched up 337/365" href="http://farm6.static.flickr.com/5519/11190498386_b0e551fcd3_b.jpg">
+                <img src="http://farm6.static.flickr.com/5519/11190498386_b0e551fcd3_s.jpg">
+            </a>
+            <a data-gallery="" title="IMGP9696-stavrosstam" href="http://farm6.static.flickr.com/5483/11192544226_e76f7000ab_b.jpg">
+                <img src="http://farm6.static.flickr.com/5483/11192544226_e76f7000ab_s.jpg">
+            </a>
+            <a data-gallery="" title="IMG_3117" href="http://farm4.static.flickr.com/3758/11191372883_200105f62f_b.jpg">
+                <img src="http://farm4.static.flickr.com/3758/11191372883_200105f62f_s.jpg">
+            </a>
+            <a data-gallery="" title="A world apart..." href="http://farm3.static.flickr.com/2831/11189347715_9d8f5b400b_b.jpg">
+                <img src="http://farm3.static.flickr.com/2831/11189347715_9d8f5b400b_s.jpg">
+            </a>
+            <a data-gallery="" title="Lights on Cape Cod Bay" href="http://farm6.static.flickr.com/5490/11187042085_cd6483e25c_b.jpg">
+                <img src="http://farm6.static.flickr.com/5490/11187042085_cd6483e25c_s.jpg">
+            </a>
+            <a data-gallery="" title="second spring" href="http://farm4.static.flickr.com/3801/11196375183_f6abd5b25e_b.jpg">
+                <img src="http://farm4.static.flickr.com/3801/11196375183_f6abd5b25e_s.jpg">
+            </a>
+            <a data-gallery="" title="Perfect Landing" href="http://farm6.static.flickr.com/5503/11194858816_e46fc17ecd_b.jpg">
+                <img src="http://farm6.static.flickr.com/5503/11194858816_e46fc17ecd_s.jpg">
+            </a>
+            <a data-gallery="" title="Oh rose thou art sick..." href="http://farm4.static.flickr.com/3806/11189687433_9183bb0d19_b.jpg">
+                <img src="http://farm4.static.flickr.com/3806/11189687433_9183bb0d19_s.jpg">
+            </a>
+            <a data-gallery="" title="" href="http://farm8.static.flickr.com/7448/11188317995_4127b61baa_b.jpg">
+                <img src="http://farm8.static.flickr.com/7448/11188317995_4127b61baa_s.jpg">
+            </a>
+        </div>
+        <br>
+    </div>
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">×</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/js/bootstrap-image-gallery.js"></script>
+    <script src="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/js/demo.js"></script>

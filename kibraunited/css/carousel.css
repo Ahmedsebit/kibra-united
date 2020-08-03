@@ -27,6 +27,11 @@ body {
 .carousel-item {
   height: 40rem;
 }
+
+.carousel-players{
+  height: 70rem;
+}
+
 .carousel-item > img {
   position: absolute;
   top: 0;

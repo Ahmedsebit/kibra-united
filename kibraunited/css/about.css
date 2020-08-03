@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+#side .nav-link.active,
+#side .nav-link:hover,
+#side .nav-link:focus{
+  color: #1B7A3A;
+  border-bottom: 1px #1B7A3A dashed;
+}
+#side .nav-link:link li a {
+  color: #1B7A3A;
+
+}
+
+#side nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  #side nav ul {
+    position: sticky;
+    top: 0;
+  }
+}
+#side nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+#side nav ul li a.current {
+  background: black;
+}
+
+.side-navbar-font {
+  color: #1B7A3A;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+
+}

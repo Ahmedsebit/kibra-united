@@ -48,6 +48,33 @@
 		display: inline-block;
 	}
 
+.wrapper h5 {
+	color: #fff;
+	font-size: 45px;
+	font-family: "ubuntu";
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Josefin Sans", sans-serif;
+	background: linear-gradient(to right, #CBFF4D 10%, #fff 50%, #1B7A3A 60%);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 1.5s linear infinite;
+	display: inline-block;
+}
+
+.wrapper p {
+	color: #1B7A3A;
+	font-size: 20px;
+	font-family: "ubuntu";
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Josefin Sans", sans-serif;
+}
 
 @keyframes textclip {
 	to {
